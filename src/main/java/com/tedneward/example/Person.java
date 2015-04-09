@@ -3,7 +3,7 @@ package com.tedneward.example;
 import java.beans.*;
 import java.util.*;
 
-public class Person implments Comparable<Person> {
+public class Person implements Comparable<Person> {
   private int age;
   private String name;
   private double salary;
